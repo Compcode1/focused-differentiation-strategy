@@ -1,3 +1,17 @@
+### Dataset Instructions
+
+This project uses the **Superstore Sales Dataset**, which can be found on Kaggle. Follow the steps below to download and use the dataset:
+
+1. Go to [Superstore Sales Dataset on Kaggle](https://www.kaggle.com/datasets/ishanshrivastava28/superstore-sales).
+2. Download the dataset as a `.csv` file.
+3. Place the `Superstore.csv` file in the same directory as the Jupyter Notebook or the project folder.
+4. The project will then load the dataset using the following code:
+    ```python
+    data = pd.read_csv('Superstore.csv')
+    ```
+
+Make sure that the file is named `Superstore.csv` and is in the correct location before running the analysis.
+
 In this project, I  aim to analyze the inventory of this existing store  with the goal of determining ways to maximize profit margins in a new subsidiary (optimized) store aimed at high profit sales. This is commonly called a **Focused Differentiation Strategy**. (We will not address overhead issues in this project as we do not have this data. Overhead would need to be subtracted from total profit in a real world setting.) This project focuses on the viability of a smaller but more profit centered additional location and/ or markerting directive. 
 
 The data is derived from the [Superstore Sales Dataset](https://www.kaggle.com/datasets/ishanshrivastava28/superstore-sales). The dataset includes sales, profit, and inventory data providing a comprehensive view of sales performance across various regions, product categories, and customer segments.
